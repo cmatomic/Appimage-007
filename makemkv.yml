@@ -1,4 +1,4 @@
-app: makemkv
+app: makemkv-bin
 binpatch: true
 
 ingredients:
