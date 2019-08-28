@@ -11,7 +11,7 @@ ingredients:
     - deb http://ppa.launchpad.net/heyarje/makemkv-beta/ubuntu xenial main
     
   script:
-  - cat > HandBrake.desktop <<EOF
+  - cat > makemkv.desktop <<EOF
   - [Desktop Entry]
   - Version=1.0
   - Name=MakeMKV
