@@ -1,0 +1,13 @@
+app: smplayer
+binpatch: true
+
+ingredients:
+   packages: 
+    - smplayer
+    - smplayer-themes
+    - smplayer-skins
+
+  dist: xenial
+  sources:
+    - deb http://archive.ubuntu.com/ubuntu/ xenial main universe
+    - deb http://ppa.launchpad.net/rvm/smplayer/ubuntu xenial main
