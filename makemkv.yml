@@ -9,3 +9,18 @@ ingredients:
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ xenial main universe
     - deb http://ppa.launchpad.net/heyarje/makemkv-beta/ubuntu xenial main
+    
+  script:
+  - cat > HandBrake.desktop <<EOF
+  - [Desktop Entry]
+  - Version=1.0
+  - Name=MakeMKV
+  - Comment=DVD and Blu-ray to MKV converter and network streamer
+  - Exec=makemkv
+  - Icon=makemkv
+  - Terminal=false
+  - Type=Application
+  - Categories=AudioVideo;Qt;
+  - EOF
+  - wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -O usr/share/icons/hicolor/256x256/apps/makemkv.png
+  - cp usr/share/icons/hicolor/256x256/apps/makemkv.png .
