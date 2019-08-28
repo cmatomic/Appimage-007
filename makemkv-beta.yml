@@ -1,0 +1,11 @@
+app: makemkv-beta
+binpatch: true
+
+ingredients:
+   packages: 
+    - makemkv-bin
+    - makemkv-oss
+  dist: xenial
+  sources:
+    - deb http://archive.ubuntu.com/ubuntu/ xenial main universe
+    - deb http://ppa.launchpad.net/heyarje/makemkv-beta/ubuntu xenial main
