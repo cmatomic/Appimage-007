@@ -11,4 +11,5 @@ ingredients:
     - deb http://ppa.launchpad.net/heyarje/makemkv-beta/ubuntu xenial main
     
   script:
+  - cp /usr/share/applications/makemkv.desktop .
   - cp usr/share/icons/hicolor/128x128/apps/makemkv.png .
