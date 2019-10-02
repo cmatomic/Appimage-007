@@ -1,4 +1,4 @@
-app: makemkv-bin
+app: makemkv
 union: true
 
 ingredients:
