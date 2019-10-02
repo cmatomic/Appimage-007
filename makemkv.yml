@@ -1,3 +1,4 @@
+name: makemkv
 app: makemkv-bin
 union: true
 
