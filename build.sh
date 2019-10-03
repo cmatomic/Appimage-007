@@ -42,7 +42,7 @@ chmod +x appimagetool
 ./appimagetool --no-appstream makemkv.AppDir
 
 mkdir ../out
-mv VlcPlayerSnap-x86_64.AppImage ../out
+mv makemkv.AppImage ../out
 ls -lh ../out/*.AppImage
 cd ../out/
 zsyncmake *.AppImage
