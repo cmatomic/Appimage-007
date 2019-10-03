@@ -32,7 +32,7 @@ sudo make install =../makemkv.AppDir
 
 cd ..
 
-wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/pkg2appimage
+wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appimagetool
 
 chmod +x appimagetool
 
