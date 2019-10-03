@@ -44,7 +44,7 @@ chmod +x appimagetool-x86_64.AppImage
 
 ls
 
-./appimagetool-x86_64.AppImage makemkv.AppDir
+./appimagetool-x86_64.AppImage --no-appstream makemkv.AppDir
 
 mkdir ../out
 mv makemkv.AppImage ../out
