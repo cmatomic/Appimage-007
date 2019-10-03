@@ -46,8 +46,3 @@ mv makemkv.AppImage ../out
 ls -lh ../out/*.AppImage
 cd ../out/
 zsyncmake *.AppImage
-
-
-
-  
-
