@@ -2,8 +2,6 @@
 
 #sudo apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev libqt4-dev zlib1g-dev
 
-
-
 mkdir makemkvbulid
 cd makemkvBuild
 mkdir makemkv.AppDir
@@ -31,6 +29,10 @@ printf 'yes'| make
 sudo make install =../makemkv.AppDir
 
 cd ..
+
+wget https://github.com/cmatomic/makemkv-AppImage/blob/master/makemkv.desktop -P m*
+
+wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -P m*
 
 wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appimagetool
 
