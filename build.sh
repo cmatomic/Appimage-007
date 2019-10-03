@@ -15,9 +15,8 @@ tar xf makemkv-oss-1.14.5.tar.gz
 cd makemkv-oss-1.14.5
 
 ./configure
-
 make
-make install =../makemkv.AppDir
+sudo make install =../makemkv.AppDir
 
 cd ..
 
@@ -31,7 +30,7 @@ cd makemkv-bin-1.14.5
 
 make
 
-echo yes | make install =../makemkv.AppDir
+printf 'yes'| sudo make install =../makemkv.AppDir
 
 cd ..
 
