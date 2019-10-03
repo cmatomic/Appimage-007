@@ -31,7 +31,7 @@ cd makemkv-bin-1.14.5
 
 make
 
-yes | makemkv-oss-1.14.5make install =../makemkv.AppDir
+echo yes | make install =../makemkv.AppDir
 
 cd ..
 
