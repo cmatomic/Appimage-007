@@ -32,7 +32,7 @@ cd ..
 
 ls
 
-wget https://github.com/cmatomic/makemkv-AppImage/blob/master/makemkv.desktop -P makemkv.AppDir
+wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/makemkv.desktop -P makemkv.AppDir
 
 wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -P makemkv.AppDir
 
