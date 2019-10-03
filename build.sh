@@ -12,7 +12,7 @@ wget https://www.makemkv.com/download/makemkv-oss-1.14.5.tar.gz
 
 tar xf makemkv-oss-1.14.5.tar.gz
 
-cd makemkv-bin-1.14.5
+cd makemkv-oss-1.14.5
 
 ./configure
 
@@ -31,7 +31,7 @@ cd makemkv-bin-1.14.5
 
 make
 
-make install -y =../makemkv.AppDir
+yes | makemkv-oss-1.14.5make install =../makemkv.AppDir
 
 cd ..
 
