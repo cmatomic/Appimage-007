@@ -40,7 +40,7 @@ wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -P 
 
 wget https://github.com/AppImage/AppImageKit/releases/download/12/appimagetool-x86_64.AppImage
 
-chmod +x appimagetool
+chmod +x appimagetool-x86_64.AppImage
 
 ls
 
