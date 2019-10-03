@@ -6,7 +6,7 @@ matrix:
       env: BUILDARCH=x64
 
 before_install:
-  - sudo apt-get install desktop-file-utils zsync  build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev libqt4-dev zlib1g-dev appstreamcli
+  - sudo apt-get install desktop-file-utils zsync  build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev libqt4-dev zlib1g-dev
   - chmod +x build.sh
   - chmod +x pkg2appimage
 script:
