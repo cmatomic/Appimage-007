@@ -26,11 +26,9 @@ tar xf makemkv-bin-1.14.5.tar.gz
 
 cd makemkv-bin-1.14.5
 
-./configure
+printf 'yes'| make
 
-make
-
-printf 'yes'| sudo make install =../makemkv.AppDir
+sudo make install =../makemkv.AppDir
 
 cd ..
 
