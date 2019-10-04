@@ -47,7 +47,7 @@ ls
 
 mv makemkv.AppDir  makemkv-86_64.AppDir
 
-ARCH=x86_64 ./appimagetool --no-appstream /makemkv-86_64.AppDir
+ARCH=x86_64 ./appimagetool --no-appstream makemkv-86_64.AppDir
 
 mkdir ../out
 mv makemkv-86_64.AppImage ../out
