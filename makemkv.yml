@@ -1,4 +1,4 @@
-app: MakeMKV
+name: MakeMKV
 union: true
 ingredients:
    packages: 
