@@ -45,7 +45,7 @@ wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appima
 
 ls
 
-./appimagetool --no-appstream makemkv.AppDir
+ ARCH=x86_64./appimagetool --no-appstream makemkv.AppDir
 
 mkdir ../out
 mv makemkv.AppImage ../out
