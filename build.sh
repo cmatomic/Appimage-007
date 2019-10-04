@@ -12,9 +12,10 @@ tar xf makemkv-oss-1.14.5.tar.gz
 
 cd makemkv-oss-1.14.5
 
-./configure
+./configure  --prefix=/usr
 make
-sudo make install =./makemkvBuild/makemkv.AppDir
+sudo make install
+make install =INSTALL_ROOT=./makemkvBuild/makemkv.AppDir
 
 cd ..
 
@@ -26,7 +27,9 @@ cd makemkv-bin-1.14.5
 
 printf 'yes'| make
 
-sudo make install =./makemkvBuild/makemkv.AppDir
+sudo make install
+
+make install INSTALL_ROOT=./makemkvBuild/makemkv.AppDir
 
 cd ..
 
@@ -36,7 +39,7 @@ wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/makemkv.
 
 wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -P makemkv.AppDir
 
-wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appimagetool
+#wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appimagetool
 
 #wget https://github.com/AppImage/AppImageKit/releases/download/12/appimagetool-x86_64.AppImage
 
