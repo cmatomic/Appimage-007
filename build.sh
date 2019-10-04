@@ -49,8 +49,8 @@ mv makemkv.AppDir  MakeMKV-x86_64.AppDir
 
 ARCH=x86_64 ./appimagetool --no-appstream MakeMKV-x86_64.AppDir
 
-mkdir ../out
-mv MakeMKV-x86_64.AppImage ../out
-ls -lh ../out/*.AppImage
-cd ../out/
+mkdir out
+mv MakeMKV-x86_64.AppImage out
+ls -lh out/*.AppImage
+cd  out/
 zsyncmake *.AppImage
