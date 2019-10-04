@@ -1,10 +1,11 @@
 name: MakeMKV
-app: makemkv-oss
+app:  MakeMKV
 union: true
+  packages: 
 ingredients:
-   packages: 
     - makemkv-oss
     - makemkv-bin
+   packages: 
   dist: xenial
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ xenial main universe
@@ -14,4 +15,3 @@ ingredients:
     #- wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/MakeMKV.desktop
     #- wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -O usr/share/icons/hicolor/256x256/apps/makemkv.png
     #- cp usr/share/icons/hicolor/256x256/apps/makemkv.png .
-    - cp usr/share/applications/makemkv.desktop .
