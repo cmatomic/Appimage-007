@@ -45,10 +45,12 @@ wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appima
 
 ls
 
- ARCH=x86_64./appimagetool --no-appstream makemkv.AppDir
+mv makemkv.AppDir  makemkv-86_64.AppDir
+
+./appimagetool --no-appstream makemkv-86_64.AppDir
 
 mkdir ../out
-mv makemkv.AppImage ../out
+mv makemkv-86_64.AppImage ../out
 ls -lh ../out/*.AppImage
 cd ../out/
 zsyncmake *.AppImage
