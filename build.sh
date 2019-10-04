@@ -4,7 +4,7 @@
 
 mkdir makemkvbulid
 cd makemkvBuild
-mkdir makemkv.AppDir
+mkdir MakeMKV-x86_64.AppDir
 
 wget https://www.makemkv.com/download/makemkv-oss-1.14.5.tar.gz
 
@@ -12,10 +12,10 @@ tar xf makemkv-oss-1.14.5.tar.gz
 
 cd makemkv-oss-1.14.5
 
-./configure  --prefix=../makemkv.AppDir
+./configure  --prefix=/home/travis/build/cmatomic/makemkv-AppImage/MakeMKV-x86_64.AppDir
 make
 #sudo make install
-make install DESTDIR=../makemkv.AppDir
+make install DESTDIR=/home/travis/build/cmatomic/makemkv-AppImage/MakeMKV-x86_64.AppDir
 #export DESTDIR="$HOME/makemkvBuild/makemkv.AppDir" && make install
 
 cd ..
@@ -30,7 +30,7 @@ printf 'yes'| make
 
 #sudo make install
 
-make install
+make install DESTDIR=/home/travis/build/cmatomic/makemkv-AppImage/MakeMKV-x86_64.AppDir
 
 #export DESTDIR="$HOME/makemkvBuild/makemkv.AppDir" && make install
 
@@ -53,7 +53,7 @@ wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appima
 
 ls
 
-mv makemkv.AppDir  MakeMKV-x86_64.AppDir
+#mv makemkv.AppDir  MakeMKV-x86_64.AppDir
 
 ARCH=x86_64 ./appimagetool --no-appstream MakeMKV-x86_64.AppDir
 
