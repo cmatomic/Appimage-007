@@ -3,11 +3,12 @@ union: true
 ingredients:
    packages: 
     - makemkv-oss
-    - makemkv-bin
   dist: xenial
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ xenial main universe
     - deb http://ppa.launchpad.net/heyarje/makemkv-beta/ubuntu xenial main
+   script:
+    - printf 'yes'| apt-get install makemkv-bin
    post_script:
     - wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/MakeMKV.desktop
     - wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -O usr/share/icons/hicolor/256x256/apps/makemkv.png
