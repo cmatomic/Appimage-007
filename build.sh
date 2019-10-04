@@ -36,6 +36,8 @@ make install
 
 cd ..
 
+ls ../
+ls./
 ls
 
 wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/makemkv.desktop -P makemkv.AppDir
