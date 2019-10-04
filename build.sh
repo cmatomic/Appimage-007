@@ -28,9 +28,8 @@ cd makemkv-bin-1.14.5
 
 printf 'yes'| make
 
-make install 
-
-#export DESTDIR="$HOME/makemkvBuild/makemkv.AppDir" && make install
+#make install 
+export DESTDIR="/home/travis/build/cmatomic/makemkv-AppImage/MakeMKV-x86_64.AppDir" && make install
 cd ..
 
 wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/makemkv.desktop -P MakeMKV-x86_64.AppDir
