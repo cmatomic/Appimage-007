@@ -26,7 +26,7 @@ tar xf makemkv-bin-1.14.5.tar.gz
 
 cd makemkv-bin-1.14.5
 
-printf 'yes'| make
+printf 'yes'| make DESTDIR=/home/travis/build/cmatomic/makemkv-AppImage/MakeMKV-x86_64.AppDir
 
 make install DESTDIR=/home/travis/build/cmatomic/makemkv-AppImage/MakeMKV-x86_64.AppDir
 
