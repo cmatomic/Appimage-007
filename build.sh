@@ -39,7 +39,7 @@ wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/makemkv.
 
 wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -P makemkv.AppDir
 
-#wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appimagetool
+wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appimagetool
 
 #wget https://github.com/AppImage/AppImageKit/releases/download/12/appimagetool-x86_64.AppImage
 
