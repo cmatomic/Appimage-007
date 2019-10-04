@@ -14,7 +14,7 @@ cd makemkv-oss-1.14.5
 
 ./configure
 make
-sudo make install  INSTALL_ROOT=../makemkv.AppDir
+sudo make install =./makemkvBuild/makemkv.AppDir
 
 cd ..
 
@@ -26,7 +26,7 @@ cd makemkv-bin-1.14.5
 
 printf 'yes'| make
 
-sudo make install INSTALL_ROOT=../makemkv.AppDir
+sudo make install =./makemkvBuild/makemkv.AppDir
 
 cd ..
 
