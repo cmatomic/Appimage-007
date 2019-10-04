@@ -12,10 +12,10 @@ tar xf makemkv-oss-1.14.5.tar.gz
 
 cd makemkv-oss-1.14.5
 
-./configure  --prefix=/usr
+./configure  --prefix=../makemkv.AppDir
 make
 #sudo make install
-make install ../makemkv.AppDir/
+make install DESTDIR=../makemkv.AppDir
 #export DESTDIR="$HOME/makemkvBuild/makemkv.AppDir" && make install
 
 cd ..
@@ -26,11 +26,11 @@ tar xf makemkv-bin-1.14.5.tar.gz
 
 cd makemkv-bin-1.14.5
 
-printf 'yes'| make
+printf 'yes'| make --prefix=../makemkv.AppDir
 
 #sudo make install
 
-make install ../makemkv.AppDir/
+make install
 
 #export DESTDIR="$HOME/makemkvBuild/makemkv.AppDir" && make install
 
