@@ -14,9 +14,9 @@ cd makemkv-oss-1.14.5
 
 ./configure  --prefix=/usr
 make
-sudo make install
-#make install ../makemkv.AppDir
-export DESTDIR="$HOME/makemkvBuild/makemkv.AppDir" && make install
+#sudo make install
+sudo make install ../makemkv.AppDir
+#export DESTDIR="$HOME/makemkvBuild/makemkv.AppDir" && make install
 
 cd ..
 
@@ -28,11 +28,11 @@ cd makemkv-bin-1.14.5
 
 printf 'yes'| make
 
-sudo make install
+#sudo make install
 
-#make install ../makemkv.AppDir
+sudo make install ../makemkv.AppDir
 
-export DESTDIR="$HOME/makemkvBuild/makemkv.AppDir" && make install
+#export DESTDIR="$HOME/makemkvBuild/makemkv.AppDir" && make install
 
 cd ..
 
