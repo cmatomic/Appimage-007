@@ -36,13 +36,10 @@ make install DESTDIR=/home/travis/build/cmatomic/makemkv-AppImage/MakeMKV-x86_64
 
 cd ..
 
-ls ../
-ls./
-ls
 
-wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/makemkv.desktop -P makemkv.AppDir
+wget https://raw.githubusercontent.com/cmatomic/makemkv-AppImage/master/makemkv.desktop -P MakeMKV-x86_64.AppDir
 
-wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -P makemkv.AppDir
+wget https://github.com/cmatomic/makemkv-AppImage/raw/master/img/makemkv.png -P MakeMKV-x86_64.AppDir
 
 wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appimagetool
 
@@ -50,8 +47,6 @@ wget https://github.com/cmatomic/RecipesAppimage/raw/master/VLCplayerSnap/appima
 
 #chmod +x appimagetool-x86_64.AppImage
  chmod +x appimagetool
-
-ls
 
 #mv makemkv.AppDir  MakeMKV-x86_64.AppDir
 
