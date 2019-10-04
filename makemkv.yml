@@ -1,4 +1,5 @@
 name: MakeMKV
+app: makemkv-oss
 union: true
 ingredients:
    packages: 
