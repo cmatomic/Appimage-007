@@ -1,10 +1,10 @@
 name: MakeMKV
 app:  MakeMKV
 union: true
-  packages: 
+  package: makemkv-bin
 ingredients:
-    - makemkv-oss
-    - makemkv-bin
+    #- makemkv-oss
+    #- makemkv-bin
    packages: 
   dist: xenial
   sources:
