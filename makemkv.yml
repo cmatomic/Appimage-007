@@ -12,4 +12,4 @@ ingredients:
   ppas:
     - heyarje/makemkv-beta
   script:
-    - wget hwget https://github.com/cmatomic/makemkv-AppImage/raw/master/packages/makemkv.deb
+    - wget hwget https://github.com/cmatomic/makemkv-AppImage/raw/master/packages/makemkv.deb makemkv-AppImage/MakeMKV
