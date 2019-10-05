@@ -12,4 +12,4 @@ ingredients:
   ppas:
     - heyarje/makemkv-beta
   script:
-     - cp ~ /cmatomic/makemkv-AppImage/packages/makemkv.deb ~ /cmatomic/makemkv-AppImage/MakeMKV
+     - cp ~ /build/cmatomic/makemkv-AppImage/packages/makemkv.deb ~ /build/cmatomic/makemkv-AppImage/MakeMKV
